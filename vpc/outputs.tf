@@ -3,7 +3,7 @@ output "public_subnets" {
 }
 
 output "security_group" {
-  value = "${aws_security_group.test_sg.id}"
+  value = "${aws_security_group.my-test-sg.id}"
 }
 
 output "vpc_id" {
